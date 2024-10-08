@@ -9,7 +9,7 @@ const MenuItems = ({ menuItems }: Props) => {
         <a
           key={item.id}
           href={item.link}
-          className="mt-2 font-bold transition-colors duration-300 transform lg:mt-0 lg:mx-4 hover:text-accent dark:hover:text-accent"
+          className="mt-2 font-bold transition-colors duration-300 transform lg:mt-0 lg:mx-4 hover:text-orange-300 dark:hover:text-orange-300"
         >
           {item.name}
         </a>

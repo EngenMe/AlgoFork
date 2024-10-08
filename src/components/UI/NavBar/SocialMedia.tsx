@@ -16,7 +16,7 @@ const SocialMedia = ({ socialMediaItems }: Props) => {
         <a
           key={item.id}
           href={item.link}
-          className="mx-4 text-gray-600 transition-colors duration-300 transform dark:text-gray-300 hover:text-accent dark:hover:text-accent"
+          className="mx-4 text-gray-600 transition-colors duration-300 transform dark:text-gray-300 hover:text-orange-300 dark:hover:text-orange-300"
           aria-label={item.ariaLabel}
         >
           {<item.icon className="size-6" />}

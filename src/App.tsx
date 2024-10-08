@@ -1,7 +1,13 @@
+import Hero from './components/Hero';
 import Navbar from './components/NavBar';
 
 const App = () => {
-  return <Navbar />;
+  return (
+    <>
+      <Navbar />
+      <Hero />
+    </>
+  );
 };
 
 export default App;

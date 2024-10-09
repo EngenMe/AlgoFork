@@ -1,50 +1,155 @@
-# React + TypeScript + Vite
+# AlgoFork
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+AlgoFork is a website designed to offer an engaging and practical problem-solving experience for developers. Whether you're a beginner or a seasoned coder, AlgoFork helps you understand the when and why behind using data structures and algorithms by applying them to real-world challenges. The website offers free resources for improving your coding skills, focusing on real-world scenarios to make learning practical and relevant.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The website can be accessed via the following link:
 
-## Expanding the ESLint configuration
+**[Live Website](https://react-game-store-7s3xj6d1t-engenmes-projects.vercel.app/)**
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+<div>
+  <img src="./src/assets/WebsiteLandingPage.png" alt="Performance Score" width="800" height="1200" style="display: inline-block;"/>
+</div>
 
-- Configure the top-level `parserOptions` property like this:
+## Table of Contents
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+- [Features](#features)
+- [Code Structure](#code-structure)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Configuration](#configuration)
+- [Running the Application](#running-the-application)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Features
+
+- Real-world Coding Challenges: Solve problems that simulate real-life coding scenarios.
+- Focus on Data Structures & Algorithms: Learn when and why to use specific data structures and algorithms.
+- Interactive Tutorials: Step-by-step guides to help users solve problems.
+- Responsive Design: The website is fully responsive, ensuring an optimized experience across devices.
+- Dark Mode Toggle: Switch between light and dark themes.
+
+## Code Structure
+
+```bash
+ App.tsx
+│   index.css
+│   main.tsx
+│   vite-env.d.ts
+│
+├───assets
+│       codeOnScreen.avif
+│       WebsiteLandingPage.png
+│
+└───components
+    │   About.tsx
+    │   Discover.tsx
+    │   Faqs.tsx
+    │   Footer.tsx
+    │   Hero.tsx
+    │   NavBar.tsx
+    │   Reviews.tsx
+    │   socialMediaItems.tsx
+    │
+    └───UI
+        ├───Discover
+        │       Cards.tsx
+        │       Icon.tsx
+        │       Text.tsx
+        │       Title.tsx
+        │       YoutubeChannel.tsx
+        │
+        ├───Faqs
+        │       Card.tsx
+        │       ExpandedBtn.tsx
+        │       ShrinkedBtn.tsx
+        │       Title.tsx
+        │
+        ├───Footer
+        │       Input.tsx
+        │       SubscribeBtn.tsx
+        │       SubscriptionField.tsx
+        │       Title.tsx
+        │
+        ├───Hero
+        │       AdobeLogo.tsx
+        │       AmazonLogo.tsx
+        │       FacebookLogo.tsx
+        │       Icons.tsx
+        │       Input.tsx
+        │       SubTitle.tsx
+        │       TeslaLogo.tsx
+        │       Title.tsx
+        │
+        ├───NavBar
+        │       LoginButton.tsx
+        │       Logo.tsx
+        │       MenuButton.tsx
+        │       MenuItems.tsx
+        │       SocialMedia.tsx
+        │
+        └───Reviews
+                Body.tsx
+                Buttons.tsx
+                Card.tsx
+                PersonPic.tsx
+                Title.tsx
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Prerequisites
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+- Node.js v14 or higher
+- npm or yarn
+- Vite (if developing locally)
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+### Installation
+
+1. **Clone the Repository**
+
+```bash
+git clone https://github.com/EngenMe/AlgoFork.git
+cd AlgoFork
 ```
+
+2. **Install dependencies**
+
+```bash
+npm install
+# or if you use yarn
+yarn install
+```
+
+## Configuration
+
+No additional API configuration is required at this time.
+
+## Running the Application
+
+- Development Mode
+
+```bash
+npm run dev
+# or if using yarn
+yarn dev
+```
+
+This will start the development server and the app will be available at `http://localhost:{your-port}`
+
+## Technologies Used
+
+- Frontend: React, TypeScript
+- State Management: React Hooks (with custom hooks)
+- Styling: CSS Modules
+- Build Tool: Vite
+- Utilities: Immer, Lodash
+
+## Contributing
+
+Feel free to fork the repository and submit pull requests for any improvements or bug fixes. Contributions are always welcome!
+
+## License
+
+This project is licensed under the MIT License - see the **[LICENSE](./LICENSE)** file for details.

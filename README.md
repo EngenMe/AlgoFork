@@ -9,7 +9,7 @@ The website can be accessed via the following link:
 **[Live Website](https://react-game-store-7s3xj6d1t-engenmes-projects.vercel.app/)**
 
 <div>
-  <img src="./src/assets/WebsiteLandingPage.png" alt="Performance Score" width="800" height="1200" style="display: inline-block;"/>
+  <img src="./src/assets/WebsiteLandingPage.png" alt="Performance Score" width="800" style="display: inline-block;"/>
 </div>
 
 ## Table of Contents

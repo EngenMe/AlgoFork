@@ -1,14 +1,19 @@
 import { IconType } from 'react-icons';
 
 interface Props {
-  cardItems: { icon: IconType; title: string; description: string }[];
+  cardItems: {
+    id: number;
+    icon: IconType;
+    title: string;
+    description: string;
+  }[];
 }
 
 const Cards = ({ cardItems }: Props) => {
   return (
     <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-2">
       {cardItems.map((item) => (
-        <a href="/">
+        <a key={item.id} href="/">
           <div className="p-6 border rounded-xl border-r-gray-200 dark:border-gray-700 transition-transform transform hover:scale-105 hover:shadow-lg hover:border-blue-500 md:h-[280px] lg:h-[200px] xl:h-[180px] overflow-hidden">
             <div className="md:flex md:items-start md:-mx-4">
               <>

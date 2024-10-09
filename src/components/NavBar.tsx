@@ -2,9 +2,9 @@ import { useState } from 'react';
 import Logo from './UI/NavBar/Logo';
 import MenuButton from './UI/NavBar/MenuButton';
 import MenuItems from './UI/NavBar/MenuItems';
-import { FaGithub, FaLinkedin, FaYoutube } from 'react-icons/fa';
 import SocialMedia from './UI/NavBar/SocialMedia';
 import LoginButton from './UI/NavBar/LoginButton';
+import { socialMediaItems } from './socialMediaItems';
 
 const menuItems = [
   { id: 1, name: 'HOME', link: '/' },
@@ -12,12 +12,6 @@ const menuItems = [
   { id: 3, name: 'TOP HACKS', link: '/' },
   { id: 4, name: 'BLOGS', link: '/' },
   { id: 5, name: 'ABOUT', link: '/' },
-];
-
-export const socialMediaItems = [
-  { id: 1, ariaLabel: 'Github', icon: FaGithub, link: '/' },
-  { id: 2, ariaLabel: 'LinkedIn', icon: FaLinkedin, link: '/' },
-  { id: 3, ariaLabel: 'Youtube', icon: FaYoutube, link: '/' },
 ];
 
 const Navbar = () => {

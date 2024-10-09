@@ -1,7 +1,7 @@
 import SubscriptionField from './UI/Footer/SubscriptionField';
 import Title from './UI/Footer/title';
 import Logo from './UI/NavBar/Logo';
-import { socialMediaItems } from './NavBar';
+import { socialMediaItems } from './socialMediaItems';
 import SocialMedia from './UI/NavBar/SocialMedia';
 
 const Footer = () => {

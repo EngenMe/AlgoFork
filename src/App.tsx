@@ -1,3 +1,4 @@
+import Discover from './components/Discover';
 import Hero from './components/Hero';
 import Navbar from './components/NavBar';
 
@@ -6,6 +7,7 @@ const App = () => {
     <>
       <Navbar />
       <Hero />
+      <Discover />
     </>
   );
 };

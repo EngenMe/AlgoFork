@@ -1,5 +1,6 @@
 import About from './components/About';
 import Discover from './components/Discover';
+import Faqs from './components/Faqs';
 import Hero from './components/Hero';
 import Navbar from './components/NavBar';
 import Reviews from './components/Reviews';
@@ -12,6 +13,7 @@ const App = () => {
       <Discover />
       <About />
       <Reviews />
+      <Faqs />
     </>
   );
 };

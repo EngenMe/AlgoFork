@@ -5,6 +5,7 @@ import MenuItems from './UI/NavBar/MenuItems';
 import SocialMedia from './UI/NavBar/SocialMedia';
 import LoginButton from './UI/NavBar/LoginButton';
 import { socialMediaItems } from './socialMediaItems';
+import ThemSwitcher from './UI/NavBar/ThemeSwitcher';
 
 const menuItems = [
   { id: 1, name: 'HOME', link: '/' },
@@ -41,6 +42,7 @@ const Navbar = () => {
             <div className="flex flex-col text-gray-600 capitalize dark:text-gray-300 lg:flex lg:px-16 lg:-mx-4 lg:flex-row lg:items-center">
               <MenuItems menuItems={menuItems} />
               <LoginButton />
+              <ThemSwitcher />
             </div>
 
             {/* Social Links */}

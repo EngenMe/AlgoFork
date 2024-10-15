@@ -6,7 +6,7 @@ AlgoFork is a website designed to offer an engaging and practical problem-solvin
 
 The website can be accessed via the following link:
 
-**[Live Website](https://react-game-store-7s3xj6d1t-engenmes-projects.vercel.app/)**
+**[Live Website](https://algo-fork-4vsv0yhvz-engenmes-projects.vercel.app/)**
 
 <div>
   <img src="./src/assets/WebsiteLandingPage.png" alt="Performance Score" width="800" style="display: inline-block;"/>

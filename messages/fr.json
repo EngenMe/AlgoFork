@@ -1,4 +1,8 @@
 {
-  "hello": "Bonjour",
-  "welcome": "Bienvenue"
+  "problems": "Problèmes",
+  "contests": "Concours",
+  "discuss": "Discuter",
+  "interview": "Entretien",
+  "login": "Connexion",
+  "signUp": "S'inscrire"
 }

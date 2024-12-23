@@ -1,4 +1,8 @@
 {
-  "hello": "Hello",
-  "welcome": "Welcome"
+  "problems": "Problems",
+  "contests": "Contests",
+  "discuss": "Discuss",
+  "interview": "Interview",
+  "login": "Login",
+  "signUp": "Sign up"
 }

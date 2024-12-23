@@ -2,6 +2,8 @@
 
 **AlgoFork** is a platform for solving programming and algorithmic challenges, aimed at **Arabic-speaking** users. It’s inspired by well-known sites like LeetCode, but focuses on providing a more accessible experience for Arab developers through localized content and community discussions.
 
+You can find the deployed website at [AlgoFork](https://algo-fork.vercel.app/ar).
+
 ## Features
 
 - **Wide Range of Challenges**  

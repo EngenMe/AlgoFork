@@ -7,7 +7,7 @@ import SignUpButton from "./SignUpButton";
 
 const Nav = () => {
   return (
-    <div className="px-6 py-2 w-full h-20 flex justify-between items-center bg-gradient-to-r from-primary to-secondary shadow-2xl">
+    <section className="px-6 py-2 w-full h-20 flex justify-between items-center bg-gradient-to-r from-primary to-secondary shadow-xl z-10 relative">
       <Link href="/" target="_parent">
         <Logo />
       </Link>
@@ -23,7 +23,7 @@ const Nav = () => {
       <div className="lg:hidden">
         <SheetComponent />
       </div>
-    </div>
+    </section>
   );
 };
 export default Nav;

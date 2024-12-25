@@ -15,8 +15,8 @@ import SignUpButton from "./SignUpButton";
 const SheetComponent = () => {
   return (
     <Sheet>
-      <SheetTrigger>
-        <Menu />
+      <SheetTrigger className="rounded-md shadow-xl">
+        <Menu className="text-background" />
       </SheetTrigger>
       <SheetContent className="flex flex-col h-full bg-gradient-to-b from-secondary to-primary border-0 shadow-lg">
         <div className="flex-grow">

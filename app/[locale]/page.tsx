@@ -1,5 +1,11 @@
+import Hero from "@/components/Hero/Hero";
 import Nav from "@/components/Main/Nav";
 
 export default function HomePage() {
-  return <Nav />;
+  return (
+    <>
+      <Nav />
+      <Hero />
+    </>
+  );
 }

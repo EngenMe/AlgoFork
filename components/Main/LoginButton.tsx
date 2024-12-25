@@ -7,7 +7,7 @@ const LoginButton = () => {
   return (
     <Button
       variant="outline"
-      className="border-2 border-background text-background bg-transparent shadow-md font-semibold"
+      className="w-full lg:w-32 lg:h-11 border-2 border-background text-background bg-transparent shadow-md font-bold"
     >
       {t("login")}
     </Button>

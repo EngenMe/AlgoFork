@@ -7,7 +7,7 @@ const SignUpButton = () => {
   return (
     <Button
       variant="secondary"
-      className="shadow-md bg-background text-sm font-semibold hover:bg-transparent border-2 border-background hover:text-background"
+      className="w-full lg:w-32 lg:h-11 shadow-md bg-background font-bold hover:bg-transparent border-2 border-background hover:text-background"
     >
       {t("signUp")}
     </Button>

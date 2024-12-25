@@ -1,5 +1,3 @@
-import { WandSparkles } from "lucide-react";
-import { Button } from "../ui/button";
 import {
   Card,
   CardHeader,
@@ -8,10 +6,11 @@ import {
   CardFooter,
 } from "../ui/card";
 import { Textarea } from "../ui/textarea";
+import ShinyButtonComp from "./ShinyButtonComp";
 
 const AiCard = () => {
   return (
-    <Card className="w-full md:w-3/4 lg:w-1/2 shadow-lg">
+    <Card className="w-full md:w-3/4 lg:w-1/3 shadow-2xl">
       <CardHeader>
         <CardTitle className="text-base font-bold text-primary">
           Get Started
@@ -24,11 +23,8 @@ const AiCard = () => {
         />
       </CardContent>
       <CardFooter className="flex flex-col gap-4">
-        <Button className="flex gap-2 w-full bg-gradient-to-r from-primary to-secondary">
-          <WandSparkles />
-          Generate
-        </Button>
-        <p className="text-xs">Powered with AI</p>
+        <ShinyButtonComp />
+        <p className="text-xs text-muted-foreground">Powered with AI</p>
       </CardFooter>
     </Card>
   );

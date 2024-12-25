@@ -7,7 +7,6 @@ const Hero = () => {
   return (
     <section className="relative bg-gradient-to-r from-primary to-secondary px-6 overflow-hidden">
       <BgIcons />
-
       <div className="relative z-10">
         <Header />
         <Paragraph />

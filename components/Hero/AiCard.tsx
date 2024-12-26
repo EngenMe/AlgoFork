@@ -9,8 +9,8 @@ import {
   CardFooter,
 } from "../ui/card";
 import { Textarea } from "../ui/textarea";
-import ShinyButtonComp from "./ShinyButtonComp";
 import { usePathname } from "next/navigation";
+import ShinyButtonComp from "./ShinyButtonComp";
 
 const AiCard = () => {
   const t = useTranslations();

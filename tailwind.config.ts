@@ -67,9 +67,14 @@ export default {
             animationTimingFunction: "ease-in-out",
           },
         },
+        marquee: {
+          "0%": { transform: "translateX(0)" },
+          "100%": { transform: "translateX(-50%)" },
+        },
       },
       animation: {
         "bounce-slow": "bounce-slow 3s infinite",
+        marquee: "marquee 1s linear infinite",
       },
     },
   },

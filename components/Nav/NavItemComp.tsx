@@ -1,4 +1,4 @@
-import { NavItem } from "@/interfaces/NavItem";
+import { NavItem } from "@/interfaces/NavItem.interface";
 import Link from "next/link";
 import { Button } from "../ui/button";
 

@@ -1,4 +1,4 @@
-import { NavItem } from "@/interfaces/NavItem";
+import { NavItem } from "@/interfaces/NavItem.interface";
 
 export const navItems: NavItem[] = [
   { title: "problems", link: "/problems" },

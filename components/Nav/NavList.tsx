@@ -1,4 +1,4 @@
-import { navItems } from "@/data/navItems";
+import { navItems } from "@/data/navItems.data";
 import NavItemComp from "./NavItemComp";
 import { useTranslations } from "next-intl";
 

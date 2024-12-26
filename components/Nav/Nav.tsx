@@ -4,6 +4,7 @@ import SheetComponent from "./SheetComponent";
 import NavList from "./NavList";
 import LoginButton from "./LoginButton";
 import SignUpButton from "./SignUpButton";
+import LanguageSwitcherComp from "./LanguageSwitcherComp";
 
 const Nav = () => {
   return (
@@ -11,15 +12,17 @@ const Nav = () => {
       <Link href="/" target="_parent">
         <Logo />
       </Link>
-      <div className="hidden lg:block">
+      <div className="hidden lg:flex gap-10">
         <NavList />
+        <LanguageSwitcherComp />
       </div>
-      <div className="lg:flex lg:gap-5">
+      <div className="hidden lg:flex lg:gap-5">
         <div className="hidden lg:flex lg:gap-5">
           <SignUpButton />
           <LoginButton />
         </div>
       </div>
+      <LanguageSwitcherComp />
       <div className="lg:hidden">
         <SheetComponent />
       </div>

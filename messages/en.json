@@ -13,5 +13,8 @@
   "aiCardButtonTitle": "Generate",
   "aiCardFooter": "Powered with AI",
   "aiCardError": "Please fill out the text area before proceeding.",
-  "partnersHeader": "Top Company Questions"
+  "partnersHeader": "Top Company Questions",
+  "aboutHeader": "Why AlgoFork?",
+  "aboutParagraph": "At AlgoFork, we provide a platform dedicated to problem-solving, challenges, competitive programming, and tech interview preparation. Powered by AI, our platform offers the best preparation roadmap for your upcoming interviews. Additionally, we provide a dashboard to track your progress and assess your readiness to succeed in your interviews.",
+  "aboutButtonTitle": "Questions Bank"
 }

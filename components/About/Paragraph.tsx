@@ -4,21 +4,17 @@ import { getTextDirection } from "@/utils/getTextDirection";
 import { useTranslations } from "next-intl";
 import { usePathname } from "next/navigation";
 
-interface Props {
-  children: string;
-}
-
-const Header = ({ children }: Props) => {
+const Paragraph = () => {
   const t = useTranslations();
   const pathname = usePathname();
 
   return (
-    <h1
-      className="text-3xl font-bold text-center"
+    <p
       dir={getTextDirection(pathname)}
+      className="text-center text-muted-foreground px-4 md:px-10 lg:w-3/5"
     >
-      {t(children)}
-    </h1>
+      {t("aboutParagraph")}
+    </p>
   );
 };
-export default Header;
+export default Paragraph;

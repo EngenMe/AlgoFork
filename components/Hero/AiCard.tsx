@@ -12,13 +12,13 @@ import { Textarea } from "../ui/textarea";
 import { usePathname } from "next/navigation";
 import ShinyButtonComp from "./ShinyButtonComp";
 import { useState } from "react";
+import { getTextDirection } from "@/utils/getTextDirection";
 
 const AiCard = () => {
   const t = useTranslations();
-
   const pathname = usePathname();
-  const isArabic = pathname.includes("/ar");
-  const textDirection = isArabic ? "rtl" : "ltr";
+
+  const textDirection = getTextDirection(pathname);
 
   const [textareaValue, setTextareaValue] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
@@ -34,7 +34,7 @@ const AiCard = () => {
   return (
     <Card
       className={`w-full md:w-3/4 lg:w-1/3 shadow-2xl ${
-        isArabic ? "text-right" : "text-left"
+        textDirection === "rtl" ? "text-right" : "text-left"
       }`}
     >
       <CardHeader>

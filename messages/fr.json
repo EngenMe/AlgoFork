@@ -13,5 +13,8 @@
   "aiCardButtonTitle": "Générer",
   "aiCardFooter": "Propulsé par l'IA",
   "aiCardError": "Veuillez remplir la zone de texte avant de continuer.",
-  "partnersHeader": "Questions des Grandes Entreprises"
+  "partnersHeader": "Questions des Grandes Entreprises",
+  "aboutHeader": "Pourquoi AlgoFork ?",
+  "aboutParagraph": "Chez AlgoFork, nous offrons une plateforme dédiée à la résolution de problèmes, aux défis, à la programmation compétitive et à la préparation aux entretiens techniques. Alimentée par l'IA, notre plateforme propose la meilleure feuille de route de préparation pour vos prochains entretiens. De plus, nous fournissons un tableau de bord pour suivre vos progrès et évaluer votre préparation pour réussir vos entretiens.",
+  "aboutButtonTitle": "Banque de questions"
 }

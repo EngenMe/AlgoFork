@@ -5,18 +5,17 @@ import { Button } from "../ui/button";
 import { usePathname } from "next/navigation";
 import { getTextDirection } from "@/utils/getTextDirection";
 
-const LoginButton = () => {
+const ButtonComp = () => {
   const t = useTranslations();
   const pathname = usePathname();
 
   return (
     <Button
-      variant="outline"
       dir={getTextDirection(pathname)}
-      className="w-full lg:w-32 lg:h-11 border-2 border-background text-background bg-transparent shadow-md font-bold"
+      className="w-3/4 lg:w-3/12 bg-gradient-to-r from-primary to-secondary font-semibold py-6 shadow-xl hover:shadow-md hover:opacity-90 transition-all"
     >
-      {t("login")}
+      {t("aboutButtonTitle")}
     </Button>
   );
 };
-export default LoginButton;
+export default ButtonComp;

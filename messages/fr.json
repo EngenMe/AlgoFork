@@ -12,5 +12,6 @@
   "aiCardPlaceholder": "Listez 10 questions d'entretien frontend à pratiquer...",
   "aiCardButtonTitle": "Générer",
   "aiCardFooter": "Propulsé par l'IA",
-  "aiCardError": "Veuillez remplir la zone de texte avant de continuer."
+  "aiCardError": "Veuillez remplir la zone de texte avant de continuer.",
+  "partnersHeader": "Questions des Grandes Entreprises"
 }

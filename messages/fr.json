@@ -7,9 +7,10 @@
   "signUp": "S'inscrire",
   "heroHeaderPt1": "Ne vous contentez pas de coder,",
   "heroHeaderPt2": "Construisez",
-  "heroParagraph": "Débloquez votre potentiel de codage avec le nom de la marque et rejoignez la communauté des développeurs.",
+  "heroParagraph": "Élevez vos compétences en programmation au sein de la plus grande communauté d'apprentissage arabe et du Moyen-Orient, et décrochez votre poste de rêve dans les meilleures entreprises du monde entier !",
   "aiCardTitle": "Commencez maintenant",
   "aiCardPlaceholder": "Listez 10 questions d'entretien frontend à pratiquer...",
   "aiCardButtonTitle": "Générer",
-  "aiCardFooter": "Propulsé par l'IA"
+  "aiCardFooter": "Propulsé par l'IA",
+  "aiCardError": "Veuillez remplir la zone de texte avant de continuer."
 }

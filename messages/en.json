@@ -7,9 +7,10 @@
   "signUp": "Sign up",
   "heroHeaderPt1": "Don't just code,",
   "heroHeaderPt2": "Build",
-  "heroParagraph": "Unlock Your Coding Potential with Brand Name and become a part of developer's community.",
+  "heroParagraph": "Elevate your programming prowess within the largest Arab and Middle Eastern learning community, and secure your dream position with top companies worldwide!",
   "aiCardTitle": "Get Started",
   "aiCardPlaceholder": "List 10 frontend interview questions to practice...",
   "aiCardButtonTitle": "Generate",
-  "aiCardFooter": "Powered with AI"
+  "aiCardFooter": "Powered with AI",
+  "aiCardError": "Please fill out the text area before proceeding."
 }

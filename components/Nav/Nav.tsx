@@ -22,7 +22,9 @@ const Nav = () => {
           <LoginButton />
         </div>
       </div>
-      <LanguageSwitcherComp />
+      <div className="lg:hidden">
+        <LanguageSwitcherComp />
+      </div>
       <div className="lg:hidden">
         <SheetComponent />
       </div>

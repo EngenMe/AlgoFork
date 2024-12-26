@@ -11,6 +11,7 @@ import {
 import { Textarea } from "../ui/textarea";
 import { usePathname } from "next/navigation";
 import ShinyButtonComp from "./ShinyButtonComp";
+import { useState } from "react";
 
 const AiCard = () => {
   const t = useTranslations();
@@ -18,6 +19,17 @@ const AiCard = () => {
   const pathname = usePathname();
   const isArabic = pathname.includes("/ar");
   const textDirection = isArabic ? "rtl" : "ltr";
+
+  const [textareaValue, setTextareaValue] = useState("");
+  const [errorMessage, setErrorMessage] = useState("");
+
+  const handleButtonClick = () => {
+    if (!textareaValue.trim()) {
+      setErrorMessage(t("aiCardError"));
+    } else {
+      setErrorMessage("");
+    }
+  };
 
   return (
     <Card
@@ -38,9 +50,16 @@ const AiCard = () => {
           placeholder={t("aiCardPlaceholder")}
           className="placeholder:text-xs placeholder:text-muted-foreground shadow-md"
           dir={textDirection}
+          value={textareaValue}
+          onChange={(e) => setTextareaValue(e.target.value)}
         />
+        {errorMessage && (
+          <p className="text-xs text-destructive mt-2" dir={textDirection}>
+            {errorMessage}
+          </p>
+        )}
       </CardContent>
-      <CardFooter className="flex flex-col gap-4">
+      <CardFooter onClick={handleButtonClick} className="flex flex-col gap-4">
         <ShinyButtonComp />
         <p className="text-xs text-muted-foreground" dir={textDirection}>
           {t("aiCardFooter")}

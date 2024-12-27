@@ -16,5 +16,14 @@
   "partnersHeader": "Top Company Questions",
   "aboutHeader": "Why AlgoFork?",
   "aboutParagraph": "At AlgoFork, we provide a platform dedicated to problem-solving, challenges, competitive programming, and tech interview preparation. Powered by AI, our platform offers the best preparation roadmap for your upcoming interviews. Additionally, we provide a dashboard to track your progress and assess your readiness to succeed in your interviews.",
-  "aboutButtonTitle": "Questions Bank"
+  "aboutButtonTitle": "Questions Bank",
+  "product1Title": "Top Tech Company Questions",
+  "product2Title": "Frontend Skills",
+  "product3Title": "Database Skills",
+  "product1ParagraphTitle": "Prepare for interviews with real-world questions from top tech companies like Meta, Google, Amazon, and more.",
+  "product2ParagraphTitle": "Enhance your frontend development skills with tutorials, challenges, and real-world projects covering HTML, CSS, and JavaScript.",
+  "product3ParagraphTitle": "Master SQL and NoSQL databases with guided exercises, real-world challenges, and interview prep materials.",
+  "product1ButtonTitle": "Explore Questions",
+  "product2ButtonTitle": "Learn Frontend",
+  "product3ButtonTitle": "Improve Database Skills"
 }

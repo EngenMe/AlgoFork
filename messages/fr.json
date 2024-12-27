@@ -16,5 +16,14 @@
   "partnersHeader": "Questions des Grandes Entreprises",
   "aboutHeader": "Pourquoi AlgoFork ?",
   "aboutParagraph": "Chez AlgoFork, nous offrons une plateforme dédiée à la résolution de problèmes, aux défis, à la programmation compétitive et à la préparation aux entretiens techniques. Alimentée par l'IA, notre plateforme propose la meilleure feuille de route de préparation pour vos prochains entretiens. De plus, nous fournissons un tableau de bord pour suivre vos progrès et évaluer votre préparation pour réussir vos entretiens.",
-  "aboutButtonTitle": "Banque de questions"
+  "aboutButtonTitle": "Banque de questions",
+  "product1Title": "Questions des meilleures entreprises technologiques",
+  "product2Title": "Compétences en développement frontend",
+  "product3Title": "Compétences en bases de données",
+  "product1ParagraphTitle": "Préparez-vous aux entretiens avec des questions réelles provenant des meilleures entreprises technologiques comme Meta, Google, Amazon, et plus.",
+  "product2ParagraphTitle": "Améliorez vos compétences en développement frontend avec des tutoriels, des défis et des projets réels couvrant HTML, CSS et JavaScript.",
+  "product3ParagraphTitle": "Maîtrisez les bases de données SQL et NoSQL avec des exercices guidés, des défis réels et des matériaux de préparation aux entretiens.",
+  "product1ButtonTitle": "Explorer les questions",
+  "product2ButtonTitle": "Apprendre le frontend",
+  "product3ButtonTitle": "Améliorer les compétences en bases de données"
 }

@@ -1,20 +1,22 @@
 "use client";
 
+import { cn } from "@/lib/utils";
 import { getTextDirection } from "@/utils/getTextDirection";
 import { useTranslations } from "next-intl";
 import { usePathname } from "next/navigation";
 
 interface Props {
   children: string;
+  classname?: string;
 }
 
-const Header = ({ children }: Props) => {
+const Header = ({ children, classname = "" }: Props) => {
   const t = useTranslations();
   const pathname = usePathname();
 
   return (
     <h1
-      className="text-3xl font-bold text-center"
+      className={cn(classname, "text-3xl font-bold")}
       dir={getTextDirection(pathname)}
     >
       {t(children)}

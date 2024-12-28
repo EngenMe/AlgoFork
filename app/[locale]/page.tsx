@@ -3,6 +3,7 @@ import Hero from "@/components/Hero/Hero";
 import Nav from "@/components/Nav/Nav";
 import Partners from "@/components/Partners/Partners";
 import Products from "@/components/Products/Products";
+import ProgrammingLanguages from "@/components/ProgrammingLanguages/ProgrammingLanguages";
 
 export default function HomePage() {
   return (
@@ -12,6 +13,7 @@ export default function HomePage() {
       <Partners />
       <About />
       <Products />
+      <ProgrammingLanguages />
     </>
   );
 }

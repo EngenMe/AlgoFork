@@ -8,7 +8,7 @@ const Hero = () => {
     <section className="relative bg-gradient-to-r from-primary to-secondary px-6 overflow-hidden">
       <BgIcons />
       <div className="relative z-10">
-        <Header>heroHeaderPt1</Header>
+        <Header />
         <Paragraph />
         <div className="py-20 flex justify-center items-center">
           <AiCard />

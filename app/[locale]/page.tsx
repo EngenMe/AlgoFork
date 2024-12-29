@@ -9,7 +9,7 @@ import Footer from "@/components/Footer/Footer";
 
 export default function HomePage() {
   return (
-    <>
+    <div className="animate-blur-in">
       <Nav />
       <Hero />
       <Partners />
@@ -18,6 +18,6 @@ export default function HomePage() {
       <ProgrammingLanguages />
       <GetStarted />
       <Footer />
-    </>
+    </div>
   );
 }

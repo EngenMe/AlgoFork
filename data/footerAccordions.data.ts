@@ -3,34 +3,34 @@ import { FooterAccordion } from "@/interfaces/FooterAccordion.interface";
 export const footerAccordions: FooterAccordion[] = [
   // Products
   {
-    value: "footer1Title",
-    title: "footer1Title",
+    value: "products",
+    title: "products",
     content: [
-      { title: "footer1SubTitle1", href: "#" },
-      { title: "footer1SubTitle2", href: "#" },
-      { title: "footer1SubTitle3", href: "#" },
-      { title: "footer1SubTitle4", href: "#" },
-      { title: "footer1SubTitle5", href: "#" },
+      { title: "problemSolving", href: "#" },
+      { title: "interviewPrep", href: "#" },
+      { title: "competitiveProgramming", href: "#" },
+      { title: "aiPoweredTools", href: "#" },
+      { title: "progressDashboard", href: "#" },
     ],
   },
   // Solutions
   {
-    value: "footer2Title",
-    title: "footer2Title",
+    value: "solutions",
+    title: "solutions",
     content: [
-      { title: "footer2SubTitle1", href: "#" },
-      { title: "footer2SubTitle2", href: "#" },
-      { title: "footer2SubTitle3", href: "#" },
-      { title: "footer2SubTitle4", href: "#" },
-      { title: "footer2SubTitle5", href: "#" },
+      { title: "aceYourInterviews", href: "#" },
+      { title: "masterAlgorithms", href: "#" },
+      { title: "learnNewSkills", href: "#" },
+      { title: "buildRealProjects", href: "#" },
+      { title: "joinTheCommunity", href: "#" },
     ],
   },
   // Resources
   {
-    value: "footer3Title",
-    title: "footer3Title",
+    value: "resources",
+    title: "resources",
     content: [
-      { title: "footer3SubTitle1", href: "#" },
+      { title: "Blog", href: "#" },
       { title: "footer3SubTitle2", href: "#" },
       { title: "footer3SubTitle3", href: "#" },
       { title: "footer3SubTitle4", href: "#" },
@@ -39,8 +39,8 @@ export const footerAccordions: FooterAccordion[] = [
   },
   // About Us
   {
-    value: "footer4Title",
-    title: "footer4Title",
+    value: "aboutUs",
+    title: "aboutUs",
     content: [
       { title: "footer4SubTitle1", href: "#" },
       { title: "footer4SubTitle2", href: "#" },

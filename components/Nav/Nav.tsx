@@ -3,7 +3,6 @@ import Logo from "./Logo";
 import SheetComponent from "./SheetComponent";
 import NavList from "./NavList";
 import LoginButton from "./LoginButton";
-import SignUpButton from "./SignUpButton";
 import LanguageSwitcherComp from "./LanguageSwitcherComp";
 
 const Nav = () => {
@@ -18,7 +17,6 @@ const Nav = () => {
       </div>
       <div className="hidden lg:flex lg:gap-5">
         <div className="hidden lg:flex lg:gap-5">
-          <SignUpButton />
           <LoginButton />
         </div>
       </div>

@@ -57,7 +57,7 @@ export default {
         sm: "calc(var(--radius) - 4px)",
       },
       keyframes: {
-        "bounce-slow": {
+        bounceSlow: {
           "0%, 100%": {
             transform: "translateY(0)",
             animationTimingFunction: "ease-in-out",
@@ -75,7 +75,7 @@ export default {
             transform: "translateX(-50%)",
           },
         },
-        "accordion-down": {
+        accordionDown: {
           from: {
             height: "0",
           },
@@ -83,32 +83,30 @@ export default {
             height: "var(--radix-accordion-content-height)",
           },
         },
-        "accordion-up": {
+        accordionUp: {
           from: {
             height: "var(--radix-accordion-content-height)",
           },
           to: {
             height: "0",
           },
+        },
+        blurIn: {
+          "0%": { filter: "blur(10px)", opacity: "0" },
+          "100%": { filter: "blur(0px)", opacity: "1" },
+        },
+        pulseBlur: {
+          "0%, 100%": { opacity: "0.6" },
+          "50%": { opacity: "1" },
         },
       },
       animation: {
-        "bounce-slow": "bounce-slow 3s infinite",
+        bounceSlow: "bounceSlow 3s infinite",
         marquee: "marquee 1s linear infinite",
-        "accordion-down": "accordion-down 0.2s ease-out",
-        "accordion-up": "accordion-up 0.2s ease-out",
-        "blur-in": "blurIn 0.8s ease-out",
-        "blur-pulse": "blurPulse 1.5s infinite",
-      },
-    },
-    keyframes: {
-      blurIn: {
-        "0%": { filter: "blur(10px)", opacity: "0" },
-        "100%": { filter: "blur(0px)", opacity: "1" },
-      },
-      blurPulse: {
-        "0%, 100%": { filter: "blur(4px)", opacity: "0.5" },
-        "50%": { filter: "blur(10px)", opacity: "1" },
+        accordionDown: "accordionDown 0.2s ease-out",
+        accordionUp: "accordionUp 0.2s ease-out",
+        blurIn: "blurIn 0.8s ease-out",
+        blurPulse: "pulseBlur 1.5s ease-in-out infinite",
       },
     },
   },

@@ -10,7 +10,6 @@ import {
 import NavList from "./NavList";
 import Footer from "./Footer";
 import LoginButton from "./LoginButton";
-import SignUpButton from "./SignUpButton";
 
 const SheetComponent = () => {
   return (
@@ -26,7 +25,6 @@ const SheetComponent = () => {
           <NavList />
           <div className="flex flex-col gap-4 pt-10">
             <LoginButton />
-            <SignUpButton />
           </div>
         </div>
         <SheetFooter>

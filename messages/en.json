@@ -4,7 +4,6 @@
   "discuss": "Discuss",
   "interview": "Interview",
   "login": "Login",
-  "signUp": "Sign up",
   "heroHeaderPt1": "Don't just code,",
   "heroHeaderPt2": "Build",
   "heroParagraph": "Elevate your programming prowess within the largest Arab and Middle Eastern learning community, and secure your dream position with top companies worldwide!",
@@ -56,5 +55,18 @@
   "bottomFooter1": "Terms",
   "bottomFooter2": "Privacy",
   "bottomFooter3": "Help",
-  "rightReserved": "All Rights Reserved."
+  "rightReserved": "All Rights Reserved.",
+  "loginTitle": "Welcome back",
+  "loginSubTitle": "Login to your AlgoFork account",
+  "loginEmailLabel": "Email",
+  "loginPasswordLabel": "Password",
+  "loginForgetPassword": "Forgot your password?",
+  "loginButtonTitle": "Login",
+  "loginOrContinueWith": "Or continue with",
+  "loginDontHaveAccount": "Don't have an account?",
+  "loginSignUp": "Sign up",
+  "loginByClickingContinue": "By clicking continue, you agree to our",
+  "loginTerms": "Terms of Services",
+  "and": "and",
+  "loginPrivacy": "privacyPolicy"
 }

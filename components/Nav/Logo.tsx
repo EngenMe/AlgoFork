@@ -14,8 +14,8 @@ const Logo = () => {
       )}
 
       <Image
-        width={40}
-        height={40}
+        width={1000}
+        height={1000}
         alt="AlgoFork logo"
         src="/logo.svg"
         onLoadingComplete={() => setIsLoading(false)}

@@ -26,8 +26,8 @@ const ImageComp = ({ title, image, index }: Props) => {
 
         {/* Actual Image */}
         <Image
-          width={100}
-          height={100}
+          width={1000}
+          height={1000}
           alt={title}
           src={image}
           className={`w-full h-full rounded-t-md z-10 transition-opacity duration-500 ${

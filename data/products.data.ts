@@ -3,23 +3,23 @@ import { Product } from "@/interfaces/Product.interface";
 export const products: Product[] = [
   {
     image: "/products/topTechQuestions.png",
-    title: "product1Title",
-    paragraph: "product1ParagraphTitle",
-    buttonTitle: "product1ButtonTitle",
+    title: "topTechCompany",
+    paragraph: "prepareForInterviews",
+    buttonTitle: "exploreQuestions",
     buttonRedirectTo: "/questions/companies",
   },
   {
     image: "/products/frontendSkills.png",
-    title: "product2Title",
-    paragraph: "product2ParagraphTitle",
-    buttonTitle: "product2ButtonTitle",
+    title: "frontendSkills",
+    paragraph: "enhanceYourFrontend",
+    buttonTitle: "learnFrontend",
     buttonRedirectTo: "/questions/frontend",
   },
   {
     image: "/products/databaseSkills.png",
-    title: "product3Title",
-    paragraph: "product3ParagraphTitle",
-    buttonTitle: "product3ButtonTitle",
+    title: "databaseSkills",
+    paragraph: "masterSqlAnd",
+    buttonTitle: "improveDatabaseSkills",
     buttonRedirectTo: "/questions/database",
   },
 ];

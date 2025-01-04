@@ -43,10 +43,7 @@ export const cloudProps: Omit<ICloud, "children"> = {
   },
 };
 
-export const renderCustomIcon = (
-  icon: SimpleIcon,
-  theme: string,
-) => {
+export const renderCustomIcon = (icon: SimpleIcon, theme: string) => {
   const bgHex = theme === "light" ? "#f3f2ef" : "#080510";
   const fallbackHex = theme === "light" ? "#6e6e73" : "#ffffff";
   const minContrastRatio = theme === "dark" ? 2 : 1.2;
@@ -86,7 +83,7 @@ export default function IconCloud({
     if (!data) return null;
 
     return Object.values(data.simpleIcons).map((icon) =>
-      renderCustomIcon(icon, theme || "light"),
+      renderCustomIcon(icon, theme || "light")
     );
   }, [data, theme]);
 
@@ -99,7 +96,7 @@ export default function IconCloud({
           imageArray.map((image, index) => {
             return (
               <a key={index} href="#" onClick={(e) => e.preventDefault()}>
-                <Image height={42} width={42} alt="A globe" src={image} />
+                <Image height={1000} width={1000} alt="A globe" src={image} />
               </a>
             );
           })}

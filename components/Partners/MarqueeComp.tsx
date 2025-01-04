@@ -39,8 +39,8 @@ const MarqueeComp = () => {
             <Image
               src={partner.logo}
               alt={partner.name}
-              width={100}
-              height={100}
+              width={1000}
+              height={1000}
               className={`w-full h-auto object-contain transition-opacity duration-500 ${
                 loadingStates[index] ? "opacity-0" : "opacity-100"
               }`}

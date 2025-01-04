@@ -19,5 +19,5 @@ export default function HomePage() {
       <GetStarted />
       <Footer />
     </div>
-  ); //TODO: Build sing in and sing up functionality
+  );
 }

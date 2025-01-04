@@ -4,7 +4,7 @@ import IconCloudComp from "./IconCloudComp";
 const ProgrammingLanguages = () => {
   return (
     <>
-      <Header classname="text-center">programmingLanguagesTitle</Header>
+      <Header classname="text-center">masterAlgorithmsIn</Header>
       <div className="flex justify-center items-center">
         <IconCloudComp />
       </div>

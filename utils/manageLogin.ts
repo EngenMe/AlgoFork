@@ -1,4 +1,10 @@
-export const checkUser = async (email: string, password: string) => {
+import { Dispatch, SetStateAction } from "react";
+
+export const manageLogin = async (
+  email: string,
+  password: string,
+  setLoginFailed: Dispatch<SetStateAction<boolean>>
+): Promise<string | void> => {
   const apiUrl = process.env.NEXT_PUBLIC_API_URL || "http://localhost:4000/api";
   const apiKey = process.env.NEXT_PUBLIC_REDIS_API_KEY;
 
@@ -17,19 +23,15 @@ export const checkUser = async (email: string, password: string) => {
     });
 
     if (!response.ok) {
-      throw new Error("Invalid credentials or server error");
+      return setLoginFailed(true);
     }
 
-    const data = await response.json();
+    const { token }: { token: string } = await response.json();
+    setLoginFailed(false);
 
-    return data;
+    return token;
   } catch (error) {
-    if (error instanceof Error) {
-      console.error("Login failed:", error.message);
-      throw error;
-    } else {
-      console.error("An unexpected error occurred:", error);
-      throw new Error("An unexpected error occurred");
-    }
+    console.error("Login error:", error);
+    throw new Error("An unexpected error occurred. Please try again later.");
   }
 };

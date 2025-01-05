@@ -5,23 +5,20 @@ import ButtonComp from "../About/ButtonComp";
 import OrContinueWith from "./OrContinueWith";
 import SocialMedia from "./SocialMedia";
 import DontHaveAccount from "./DontHaveAccount";
-import { checkUser } from "@/utils/checkUser";
+import { manageLogin } from "@/utils/manageLogin";
+import ErrorMessage from "../Hero/ErrorMessage";
 
 const Form = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-
-  const handleLogin = async () => {
-    const res = await checkUser(email, password);
-    console.log(res);
-  };
+  const [loginFailed, setLoginFailed] = useState(false);
 
   return (
     <form
       className="p-6 md:p-8 flex flex-col gap-6"
       onSubmit={(e) => {
         e.preventDefault();
-        handleLogin();
+        manageLogin(email, password, setLoginFailed);
       }}
     >
       <FormHeader />
@@ -31,20 +28,25 @@ const Form = () => {
         placeholder="m@example.com"
         value={email}
         onChange={(e) => setEmail(e.target.value)}
+        loginFailed={loginFailed}
       >
         loginEmailLabel
       </FormItem>
-      <FormItem
-        id="password"
-        type="password"
-        isContainsForgetPassword={true}
-        hrefForRestorePassword="#"
-        labelRestorePassword="loginForgetPassword"
-        value={password}
-        onChange={(e) => setPassword(e.target.value)}
-      >
-        loginPasswordLabel
-      </FormItem>
+      <div>
+        <FormItem
+          id="password"
+          type="password"
+          isContainsForgetPassword={true}
+          hrefForRestorePassword="#"
+          labelRestorePassword="loginForgetPassword"
+          value={password}
+          onChange={(e) => setPassword(e.target.value)}
+          loginFailed={loginFailed}
+        >
+          loginPasswordLabel
+        </FormItem>
+        {loginFailed && <ErrorMessage>invalidPasswordOrEmail</ErrorMessage>}
+      </div>
       <ButtonComp type="submit">loginButtonTitle</ButtonComp>
       <OrContinueWith />
       <SocialMedia />

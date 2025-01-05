@@ -13,6 +13,7 @@ interface Props {
   labelRestorePassword?: string;
   value?: string;
   onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void;
+  loginFailed: boolean;
 }
 
 const FormItem = ({
@@ -25,6 +26,7 @@ const FormItem = ({
   labelRestorePassword,
   value,
   onChange,
+  loginFailed,
 }: Props) => {
   const t = useTranslations();
 
@@ -51,8 +53,10 @@ const FormItem = ({
         onChange={onChange}
         required
         dir="ltr"
+        className={loginFailed ? "border-destructive" : ""}
       />
     </div>
   );
 };
+
 export default FormItem;

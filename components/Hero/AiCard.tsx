@@ -13,6 +13,7 @@ import { usePathname } from "next/navigation";
 import ShinyButtonComp from "./ShinyButtonComp";
 import { useState } from "react";
 import { getTextDirection } from "@/utils/getTextDirection";
+import ErrorMessage from "./ErrorMessage";
 
 const AiCard = () => {
   const t = useTranslations();
@@ -25,7 +26,7 @@ const AiCard = () => {
 
   const handleButtonClick = () => {
     if (!textareaValue.trim()) {
-      setErrorMessage(t("pleaseFillOut"));
+      setErrorMessage("pleaseFillOut");
     } else {
       setErrorMessage("");
     }
@@ -53,11 +54,7 @@ const AiCard = () => {
           value={textareaValue}
           onChange={(e) => setTextareaValue(e.target.value)}
         />
-        {errorMessage && (
-          <p className="text-xs text-destructive mt-2" dir={textDirection}>
-            {errorMessage}
-          </p>
-        )}
+        {errorMessage && <ErrorMessage>{errorMessage}</ErrorMessage>}
       </CardContent>
       <CardFooter onClick={handleButtonClick} className="flex flex-col gap-4">
         <ShinyButtonComp />

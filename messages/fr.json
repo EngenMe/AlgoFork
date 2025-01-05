@@ -69,5 +69,6 @@
   "loginByClickingContinue": "En continuant, vous acceptez nos",
   "loginTerms": "Conditions d'utilisation",
   "and": "et",
-  "loginPrivacy": "Politique de confidentialité"
+  "loginPrivacy": "Politique de confidentialité",
+  "invalidPasswordOrEmail": "E-mail ou mot de passe invalide"
 }

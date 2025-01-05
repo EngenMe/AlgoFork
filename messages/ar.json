@@ -69,5 +69,6 @@
   "loginByClickingContinue": "بالضغط على متابعة، فإنك توافق على",
   "loginTerms": "شروط الاستخدام",
   "and": "و",
-  "loginPrivacy": "سياسة الخصوصية"
+  "loginPrivacy": "سياسة الخصوصية",
+  "invalidPasswordOrEmail": "البريد الإلكتروني أو كلمة المرور غير صحيحة"
 }

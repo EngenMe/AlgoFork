@@ -11,6 +11,8 @@ interface Props {
   isContainsForgetPassword?: boolean;
   hrefForRestorePassword?: string;
   labelRestorePassword?: string;
+  value?: string;
+  onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void;
 }
 
 const FormItem = ({
@@ -21,6 +23,8 @@ const FormItem = ({
   isContainsForgetPassword = false,
   hrefForRestorePassword,
   labelRestorePassword,
+  value,
+  onChange,
 }: Props) => {
   const t = useTranslations();
 
@@ -39,7 +43,15 @@ const FormItem = ({
           </div>
         )}
       </div>
-      <Input id={id} type={type} placeholder={placeholder} required dir="ltr" />
+      <Input
+        id={id}
+        type={type}
+        placeholder={placeholder}
+        value={value}
+        onChange={onChange}
+        required
+        dir="ltr"
+      />
     </div>
   );
 };

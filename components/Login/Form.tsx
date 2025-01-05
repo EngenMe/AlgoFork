@@ -7,18 +7,20 @@ import SocialMedia from "./SocialMedia";
 import DontHaveAccount from "./DontHaveAccount";
 import { manageLogin } from "@/utils/manageLogin";
 import ErrorMessage from "../Hero/ErrorMessage";
+import { useRouter } from "next/navigation";
 
 const Form = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [loginFailed, setLoginFailed] = useState(false);
+  const router = useRouter();
 
   return (
     <form
       className="p-6 md:p-8 flex flex-col gap-6"
       onSubmit={(e) => {
         e.preventDefault();
-        manageLogin(email, password, setLoginFailed);
+        manageLogin(email, password, setLoginFailed, router);
       }}
     >
       <FormHeader />

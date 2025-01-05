@@ -1,10 +1,12 @@
+import { AppRouterInstance } from "next/dist/shared/lib/app-router-context.shared-runtime";
 import { Dispatch, SetStateAction } from "react";
 
 export const manageLogin = async (
   email: string,
   password: string,
-  setLoginFailed: Dispatch<SetStateAction<boolean>>
-): Promise<string | void> => {
+  setLoginFailed: Dispatch<SetStateAction<boolean>>,
+  router: AppRouterInstance
+): Promise<void> => {
   const apiUrl = process.env.NEXT_PUBLIC_API_URL || "http://localhost:4000/api";
   const apiKey = process.env.NEXT_PUBLIC_REDIS_API_KEY;
 
@@ -29,7 +31,9 @@ export const manageLogin = async (
     const { token }: { token: string } = await response.json();
     setLoginFailed(false);
 
-    return token;
+    document.cookie = `authToken=${token}; path=/; HttpOnly; Secure; SameSite=Strict`;
+
+    router.push("/");
   } catch (error) {
     console.error("Login error:", error);
     throw new Error("An unexpected error occurred. Please try again later.");

@@ -7,7 +7,7 @@ import AvatarCirclesComp from "./AvatarCirclesComp";
 import { usePathname } from "next/navigation";
 import { getTextDirection } from "@/utils/getTextDirection";
 
-const aiCardTitle = () => {
+const AiCardTitle = () => {
   const t = useTranslations();
   const pathname = usePathname();
 
@@ -25,4 +25,4 @@ const aiCardTitle = () => {
     </div>
   );
 };
-export default aiCardTitle;
+export default AiCardTitle;

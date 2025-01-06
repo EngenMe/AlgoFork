@@ -38,6 +38,7 @@ const FormItem = ({
           <div>
             <a
               href={hrefForRestorePassword}
+              tabIndex={-1}
               className="ml-auto text-sm underline-offset-2 hover:underline hover:text-primary"
             >
               {t(labelRestorePassword)}

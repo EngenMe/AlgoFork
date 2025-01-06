@@ -2,8 +2,8 @@ import Link from "next/link";
 import Logo from "./Logo";
 import SheetComponent from "./SheetComponent";
 import NavList from "./NavList";
-import LoginButton from "./LoginButton";
 import LanguageSwitcherComp from "./LanguageSwitcherComp";
+import LoginComp from "./LoginComp";
 
 const Nav = () => {
   return (
@@ -16,9 +16,7 @@ const Nav = () => {
         <LanguageSwitcherComp />
       </div>
       <div className="hidden lg:flex lg:gap-5">
-        <div className="hidden lg:flex lg:gap-5">
-          <LoginButton />
-        </div>
+        <LoginComp />
       </div>
       <div className="lg:hidden">
         <LanguageSwitcherComp />

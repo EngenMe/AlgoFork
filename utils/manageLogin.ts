@@ -31,7 +31,7 @@ export const manageLogin = async (
     const { token }: { token: string } = await response.json();
     setLoginFailed(false);
 
-    document.cookie = `authToken=${token}; path=/; HttpOnly; Secure; SameSite=Strict`;
+    document.cookie = `authToken=${token}; path=/; Secure; SameSite=Strict`;
 
     router.push("/");
   } catch (error) {

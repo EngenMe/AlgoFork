@@ -26,7 +26,7 @@ const AiCard = () => {
 
   const handleButtonClick = () => {
     if (!textareaValue.trim()) {
-      setErrorMessage("pleaseFillOut");
+      setErrorMessage("hero-PleaseFillOut");
     } else {
       setErrorMessage("");
     }
@@ -43,12 +43,12 @@ const AiCard = () => {
           className="text-base font-bold text-primary"
           dir={textDirection}
         >
-          {t("getStarted")}
+          {t("hero-getStarted")}
         </CardTitle>
       </CardHeader>
       <CardContent>
         <Textarea
-          placeholder={t("list10Frontend")}
+          placeholder={t("hero-list10Frontend")}
           className="placeholder:text-xs placeholder:text-muted-foreground shadow-md"
           dir={textDirection}
           value={textareaValue}
@@ -59,7 +59,7 @@ const AiCard = () => {
       <CardFooter onClick={handleButtonClick} className="flex flex-col gap-4">
         <ShinyButtonComp />
         <p className="text-xs text-muted-foreground" dir={textDirection}>
-          {t("poweredWithAi")}
+          {t("hero-poweredWithAi")}
         </p>
       </CardFooter>
     </Card>

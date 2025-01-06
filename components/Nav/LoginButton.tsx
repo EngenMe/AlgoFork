@@ -24,7 +24,7 @@ const LoginButton = () => {
       onClick={handleClick}
       className="w-full lg:w-32 lg:h-11 shadow-md bg-background font-bold hover:bg-transparent border-2 border-background hover:text-background"
     >
-      {isLoading ? t("loginButtonLoading") : t("login")}
+      {isLoading ? t("nav-loginButtonLoading") : t("nav-login")}
     </Button>
   );
 };

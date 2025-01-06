@@ -3,7 +3,7 @@ import ProductComp from "./ProductComp";
 
 const Products = () => {
   return (
-    <section className="py-32 lg:py-64 lg:gap-48">
+    <section className="py-32 px-10 lg:py-64 lg:gap-48">
       {products.map((product, index) => (
         <ProductComp
           key={index}

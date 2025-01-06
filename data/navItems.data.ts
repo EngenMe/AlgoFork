@@ -1,8 +1,8 @@
 import { NavItem } from "@/interfaces/NavItem.interface";
 
 export const navItems: NavItem[] = [
-  { title: "problems", link: "/problems" },
-  { title: "contests", link: "/contests" },
-  { title: "discuss", link: "/discuss" },
-  { title: "interview", link: "/interview" },
+  { title: "nav-problems", link: "/problems" },
+  { title: "nav-contests", link: "/contests" },
+  { title: "nav-discuss", link: "/discuss" },
+  { title: "nav-interview", link: "/interview" },
 ];

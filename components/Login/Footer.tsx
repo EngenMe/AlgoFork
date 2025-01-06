@@ -5,8 +5,8 @@ const Footer = () => {
 
   return (
     <div className="text-balance text-center text-xs text-muted-foreground [&_a]:underline [&_a]:underline-offset-4 hover:[&_a]:text-primary">
-      {t("loginByClickingContinue")} <a href="#">{t("loginTerms")}</a>{" "}
-      {t("and")} <a href="#">{t("loginPrivacy")}</a>.
+      {t("login-byClickingOn")} <a href="#">{t("login-termsOfServices")}</a>{" "}
+      {t("login-and")} <a href="#">{t("login-privacyPolicy")}</a>.
     </div>
   );
 };

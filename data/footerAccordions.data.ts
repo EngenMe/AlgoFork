@@ -3,50 +3,50 @@ import { FooterAccordion } from "@/interfaces/FooterAccordion.interface";
 export const footerAccordions: FooterAccordion[] = [
   // Products
   {
-    value: "products",
-    title: "products",
+    value: "footer-products",
+    title: "footer-products",
     content: [
-      { title: "problemSolving", href: "#" },
-      { title: "interviewPrep", href: "#" },
-      { title: "competitiveProgramming", href: "#" },
-      { title: "aiPoweredTools", href: "#" },
-      { title: "progressDashboard", href: "#" },
+      { title: "footer-problemSolving", href: "#" },
+      { title: "footer-interviewPrep", href: "#" },
+      { title: "footer-competitiveProgramming", href: "#" },
+      { title: "footer-aiPoweredTools", href: "#" },
+      { title: "footer-progressDashboard", href: "#" },
     ],
   },
   // Solutions
   {
-    value: "solutions",
-    title: "solutions",
+    value: "footer-solutions",
+    title: "footer-solutions",
     content: [
-      { title: "aceYourInterviews", href: "#" },
-      { title: "masterAlgorithms", href: "#" },
-      { title: "learnNewSkills", href: "#" },
-      { title: "buildRealProjects", href: "#" },
-      { title: "joinTheCommunity", href: "#" },
+      { title: "footer-aceYourInterviews", href: "#" },
+      { title: "footer-masterAlgorithms", href: "#" },
+      { title: "footer-learnNewSkills", href: "#" },
+      { title: "footer-buildRealProjects", href: "#" },
+      { title: "footer-joinTheCommunity", href: "#" },
     ],
   },
   // Resources
   {
-    value: "resources",
-    title: "resources",
+    value: "footer-resources",
+    title: "footer-resources",
     content: [
-      { title: "Blog", href: "#" },
-      { title: "footer3SubTitle2", href: "#" },
-      { title: "footer3SubTitle3", href: "#" },
-      { title: "footer3SubTitle4", href: "#" },
-      { title: "footer3SubTitle5", href: "#" },
+      { title: "footer-blog", href: "#" },
+      { title: "footer-customerStories", href: "#" },
+      { title: "footer-tutorials", href: "#" },
+      { title: "footer-apiDocumentation", href: "#" },
+      { title: "footer-whatsNew", href: "#" },
     ],
   },
   // About Us
   {
-    value: "aboutUs",
-    title: "aboutUs",
+    value: "footer-aboutUs",
+    title: "footer-aboutUs",
     content: [
-      { title: "footer4SubTitle1", href: "#" },
-      { title: "footer4SubTitle2", href: "#" },
-      { title: "footer4SubTitle3", href: "#" },
-      { title: "footer4SubTitle4", href: "#" },
-      { title: "footer4SubTitle5", href: "#" },
+      { title: "footer-careers", href: "#" },
+      { title: "footer-outTeam", href: "#" },
+      { title: "footer-newsroom", href: "#" },
+      { title: "footer-status", href: "#" },
+      { title: "footer-trust", href: "#" },
     ],
   },
 ];

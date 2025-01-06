@@ -5,9 +5,9 @@ const DontHaveAccount = () => {
 
   return (
     <div className="text-center text-sm flex justify-between items-center">
-      {t("loginDontHaveAccount")}
+      {t("login-dontHaveAn")}
       <a href="#" className="underline underline-offset-4 hover:text-primary">
-        {t("loginSignUp")}
+        {t("login-signUp")}
       </a>
     </div>
   );

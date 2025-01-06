@@ -16,7 +16,8 @@ const FooterBottom = () => {
       className="flex flex-col md:flex-row justify-between items-center"
     >
       <p className="text-sm text-zinc-400 text-center">
-        &copy; {new Date().getFullYear()} AlgoFork. {t("rightReserved")}.
+        &copy; {new Date().getFullYear()} AlgoFork.{" "}
+        {t("footer-allRightsReserved")}.
       </p>
       <ul className="flex gap-4 mt-10 md:mt-0">
         {bottomFooters.map((item, index) => (

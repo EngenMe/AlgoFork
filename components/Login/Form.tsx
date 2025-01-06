@@ -32,7 +32,7 @@ const Form = () => {
         onChange={(e) => setEmail(e.target.value)}
         loginFailed={loginFailed}
       >
-        loginEmailLabel
+        login-email
       </FormItem>
       <div>
         <FormItem
@@ -40,16 +40,16 @@ const Form = () => {
           type="password"
           isContainsForgetPassword={true}
           hrefForRestorePassword="#"
-          labelRestorePassword="loginForgetPassword"
+          labelRestorePassword="login-forgotYourPassword"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
           loginFailed={loginFailed}
         >
-          loginPasswordLabel
+          login-password
         </FormItem>
-        {loginFailed && <ErrorMessage>invalidPasswordOrEmail</ErrorMessage>}
+        {loginFailed && <ErrorMessage>login-invalidPasswordOr</ErrorMessage>}
       </div>
-      <ButtonComp type="submit">loginButtonTitle</ButtonComp>
+      <ButtonComp type="submit">login-login</ButtonComp>
       <OrContinueWith />
       <SocialMedia />
       <DontHaveAccount />

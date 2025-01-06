@@ -17,7 +17,7 @@ const ShinyButtonComp = () => {
         className="text-primary text-xs font-bold h-7 flex justify-center items-center gap-2"
       >
         <WandSparkles className="w-5 h-5" />
-        {t("generate")}
+        {t("hero-generate")}
       </p>
     </ShinyButton>
   );

@@ -1,5 +1,4 @@
 import About from "@/components/About/About";
-import GetStarted from "@/components/GetStarted/GetStarted";
 import Hero from "@/components/Hero/Hero";
 import Nav from "@/components/Nav/Nav";
 import Partners from "@/components/Partners/Partners";
@@ -16,7 +15,6 @@ export default function HomePage() {
       <About />
       <Products />
       <ProgrammingLanguages />
-      <GetStarted />
       <Footer />
     </div>
   );

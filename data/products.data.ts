@@ -2,21 +2,21 @@ import { Product } from "@/interfaces/Product.interface";
 
 export const products: Product[] = [
   {
-    image: "/products/topTechQuestions.png",
+    image: "/products/topTechQuestions.webp",
     title: "topTechCompany",
     paragraph: "prepareForInterviews",
     buttonTitle: "exploreQuestions",
     buttonRedirectTo: "/questions/companies",
   },
   {
-    image: "/products/frontendSkills.png",
+    image: "/products/frontendSkills.webp",
     title: "frontendSkills",
     paragraph: "enhanceYourFrontend",
     buttonTitle: "learnFrontend",
     buttonRedirectTo: "/questions/frontend",
   },
   {
-    image: "/products/databaseSkills.png",
+    image: "/products/databaseSkills.webp",
     title: "databaseSkills",
     paragraph: "masterSqlAnd",
     buttonTitle: "improveDatabaseSkills",

@@ -9,7 +9,7 @@ import {
 } from "../ui/sheet";
 import NavList from "./NavList";
 import Footer from "./Footer";
-import LoginButton from "./LoginButton";
+import LoginComp from "./LoginComp";
 
 const SheetComponent = () => {
   return (
@@ -24,7 +24,7 @@ const SheetComponent = () => {
           </SheetHeader>
           <NavList />
           <div className="flex flex-col gap-4 pt-10">
-            <LoginButton />
+            <LoginComp />
           </div>
         </div>
         <SheetFooter>

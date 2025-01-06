@@ -32,10 +32,18 @@ const UserAvatar = ({ username, avatar }: Props) => {
   }, [avatar]);
 
   return (
-    <Avatar>
-      <AvatarImage src={imageUrl || undefined} alt="User avatar" />
-      <AvatarFallback>{username.substring(0, 2).toUpperCase()}</AvatarFallback>
-    </Avatar>
+    <div className="flex justify-center items-center gap-4">
+      <Avatar>
+        <AvatarImage
+          src={imageUrl || undefined}
+          alt="User avatar"
+          className="cursor-pointer hover:opacity-75 shadow-lg transition-opacity duration-200"
+        />
+        <AvatarFallback className="font-semibold">
+          {username.substring(0, 2).toUpperCase()}
+        </AvatarFallback>
+      </Avatar>
+    </div>
   );
 };
 

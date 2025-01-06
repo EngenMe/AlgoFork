@@ -3,11 +3,13 @@
 import { useEffect, useState } from "react";
 import UserAvatar from "./UserAvatar";
 import LoginButton from "./LoginButton";
+import { Skeleton } from "@/components/ui/skeleton";
 
 const LoginComp = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [username, setUsername] = useState("");
   const [avatar, setAvatar] = useState("");
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const token = document.cookie
@@ -17,6 +19,7 @@ const LoginComp = () => {
 
     if (!token) {
       setIsLoggedIn(false);
+      setLoading(false);
       return;
     }
 
@@ -27,6 +30,7 @@ const LoginComp = () => {
     if (!apiKey) {
       console.error("API key is not defined in the environment variables");
       setIsLoggedIn(false);
+      setLoading(false);
       return;
     }
 
@@ -53,21 +57,33 @@ const LoginComp = () => {
               setUsername(userData.username);
               setAvatar(userData.avatar);
               setIsLoggedIn(true);
+              setLoading(false);
             })
             .catch((error) => {
               console.error("Error fetching user data:", error);
               setIsLoggedIn(false);
+              setLoading(false);
             });
         } else {
-          console.error("Invalid token");
           setIsLoggedIn(false);
+          setLoading(false);
         }
       })
       .catch((error) => {
         console.error("Token validation error:", error);
         setIsLoggedIn(false);
+        setLoading(false);
       });
   }, []);
+
+  if (loading) {
+    return (
+      <div className="flex items-center space-x-4 animate-blurPulse">
+        <Skeleton className="h-10 w-10 rounded-full" />
+        <Skeleton className="h-6 w-24" />
+      </div>
+    );
+  }
 
   return isLoggedIn ? (
     <UserAvatar username={username} avatar={avatar} />

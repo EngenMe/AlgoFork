@@ -8,6 +8,7 @@ const namespaces = [
   "about",
   "products",
   "programmingLanguages",
+  "getStarted",
   "footer",
   "login",
 ] as const;

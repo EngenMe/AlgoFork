@@ -1,11 +1,11 @@
 {
-  "topTechCompany": "Top Tech Company Questions",
-  "frontendSkills": "Frontend Skills",
-  "databaseSkills": "Database Skills",
-  "prepareForInterviews": "Prepare for interviews with real-world questions from top tech companies like Meta, Google, Amazon, and more.",
-  "enhanceYourFrontend": "Enhance your frontend development skills with tutorials, challenges, and real-world projects covering HTML, CSS, and JavaScript.",
-  "masterSqlAnd": "Master SQL and NoSQL databases with guided exercises, real-world challenges, and interview prep materials.",
-  "exploreQuestions": "Explore Questions",
-  "learnFrontend": "Learn Frontend",
-  "improveDatabaseSkills": "Improve Database Skills"
+  "products-topTechCompany": "Top Tech Company Questions",
+  "products-frontendSkills": "Frontend Skills",
+  "products-databaseSkills": "Database Skills",
+  "products-prepareForInterviews": "Prepare for interviews with real-world questions from top tech companies like Meta, Google, Amazon, and more.",
+  "products-enhanceYourFrontend": "Enhance your frontend development skills with tutorials, challenges, and real-world projects covering HTML, CSS, and JavaScript.",
+  "products-masterSqlAnd": "Master SQL and NoSQL databases with guided exercises, real-world challenges, and interview prep materials.",
+  "products-exploreQuestions": "Explore Questions",
+  "products-learnFrontend": "Learn Frontend",
+  "products-improveDatabaseSkills": "Improve Database Skills"
 }

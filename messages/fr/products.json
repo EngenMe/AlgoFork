@@ -1,11 +1,11 @@
 {
-  "topTechCompany": "Questions des grandes entreprises technologiques",
-  "frontendSkills": "Compétences en Frontend",
-  "databaseSkills": "Compétences en Bases de Données",
-  "prepareForInterviews": "Préparez-vous aux entretiens avec des questions réelles issues de grandes entreprises technologiques comme Meta, Google, Amazon, et plus encore.",
-  "enhanceYourFrontend": "Améliorez vos compétences en développement frontend grâce à des tutoriels, des défis et des projets concrets couvrant HTML, CSS et JavaScript.",
-  "masterSqlAnd": "Maîtrisez les bases de données SQL et NoSQL avec des exercices guidés, des défis concrets et des matériaux de préparation aux entretiens.",
-  "exploreQuestions": "Explorer les Questions",
-  "learnFrontend": "Apprendre le Frontend",
-  "improveDatabaseSkills": "Améliorer les Compétences en Bases de Données"
+  "products-topTechCompany": "Questions des grandes entreprises technologiques",
+  "products-frontendSkills": "Compétences en Frontend",
+  "products-databaseSkills": "Compétences en Bases de Données",
+  "products-prepareForInterviews": "Préparez-vous aux entretiens avec des questions réelles issues de grandes entreprises technologiques comme Meta, Google, Amazon, et plus encore.",
+  "products-enhanceYourFrontend": "Améliorez vos compétences en développement frontend grâce à des tutoriels, des défis et des projets concrets couvrant HTML, CSS et JavaScript.",
+  "products-masterSqlAnd": "Maîtrisez les bases de données SQL et NoSQL avec des exercices guidés, des défis concrets et des matériaux de préparation aux entretiens.",
+  "products-exploreQuestions": "Explorer les Questions",
+  "products-learnFrontend": "Apprendre le Frontend",
+  "products-improveDatabaseSkills": "Améliorer les Compétences en Bases de Données"
 }

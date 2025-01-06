@@ -9,6 +9,7 @@ export async function getMessages(locale: string) {
     "about",
     "products",
     "programmingLanguages",
+    "footer",
     "login",
   ];
   let mergedMessages: Record<string, string> = {};

@@ -44,7 +44,7 @@ const MarqueeComp = () => {
               className={`w-full h-auto object-contain transition-opacity duration-500 ${
                 loadingStates[index] ? "opacity-0" : "opacity-100"
               }`}
-              onLoadingComplete={() => handleImageLoad(index)}
+              onLoad={() => handleImageLoad(index)}
             />
           </div>
         </Link>

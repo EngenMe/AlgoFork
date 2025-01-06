@@ -16,7 +16,7 @@ const ImageComp = () => {
         src="/auth/loginImage.webp"
         alt="Image"
         className="absolute inset-0 h-full w-full object-cover dark:brightness-[0.2] dark:grayscale"
-        onLoadingComplete={() => setIsLoading(false)}
+        onLoad={() => setIsLoading(false)}
       />
     </div>
   );

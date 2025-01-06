@@ -18,7 +18,7 @@ const Logo = () => {
         height={1000}
         alt="AlgoFork logo"
         src="/logo.svg"
-        onLoadingComplete={() => setIsLoading(false)}
+        onLoad={() => setIsLoading(false)}
         className={`${
           isLoading ? "opacity-0" : "opacity-100"
         } transition-opacity duration-500`}

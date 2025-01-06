@@ -33,7 +33,7 @@ const ImageComp = ({ title, image, index }: Props) => {
           className={`w-full h-full rounded-t-md z-10 transition-opacity duration-500 ${
             isLoading ? "opacity-0" : "opacity-100"
           }`}
-          onLoadingComplete={() => setIsLoading(false)}
+          onLoad={() => setIsLoading(false)}
         />
       </div>
     </div>

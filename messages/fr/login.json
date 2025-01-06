@@ -1,0 +1,16 @@
+{
+  "login-welcomeBack": "Bienvenue à nouveau",
+  "login-loginToYour": "Connectez-vous à votre compte AlgoFork",
+  "login-email": "E-mail",
+  "login-password": "Mot de passe",
+  "login-forgotYourPassword": "Mot de passe oublié ?",
+  "login-invalidPasswordOr": "Mot de passe ou e-mail invalide",
+  "login-login": "Connexion",
+  "login-orContinueWith": "Ou continuez avec",
+  "login-dontHaveAn": "Vous n'avez pas de compte ?",
+  "login-signUp": "S'inscrire",
+  "login-byClickingOn": "En cliquant sur continuer, vous acceptez nos",
+  "login-termsOfServices": "Conditions d'utilisation",
+  "login-and": "et",
+  "login-privacyPolicy": "Politique de confidentialité"
+}

@@ -1,0 +1,16 @@
+{
+  "login-welcomeBack": "مرحبًا بعودتك",
+  "login-loginToYour": "سجّل الدخول إلى حسابك على AlgoFork",
+  "login-email": "البريد الإلكتروني",
+  "login-password": "كلمة المرور",
+  "login-forgotYourPassword": "هل نسيت كلمة المرور؟",
+  "login-invalidPasswordOr": "كلمة المرور أو البريد الإلكتروني غير صحيحة",
+  "login-login": "تسجيل الدخول",
+  "login-orContinueWith": "أو تابع باستخدام",
+  "login-dontHaveAn": "لا تملك حسابًا؟",
+  "login-signUp": "إنشاء حساب",
+  "login-byClickingOn": "بالنقر على متابعة، أنت توافق على",
+  "login-termsOfServices": "شروط الخدمة",
+  "login-and": "و",
+  "login-privacyPolicy": "سياسة الخصوصية"
+}
